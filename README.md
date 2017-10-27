@@ -1,13 +1,16 @@
-# React-Lifecycle-explained
-
 # React LifeCycle Methods and their usages.
 React provides a series of hooks we can tap into at each phase of the life cycle. These method hooks inform us of where the Component is in the life cycle and what we can and cannot do.Each of the life cycle methods are called in a specific order and at a specific time. The methods are also tied to different parts of the life cycle. Here are the methods broken down in order and by their corresponding life cycle phase
 # Mounting
 These methods are called when an instance of a component is being created and inserted into the DOM:
+
 constructor()
+
 componentWillMount()
+
 render()
+
 componentDidMount()
+
 # Updating
 An update can be caused by changes to props or state. These methods are called when a component is being re-rendered:
 componentWillReceiveProps()
